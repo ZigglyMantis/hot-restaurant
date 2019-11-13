@@ -1,13 +1,13 @@
-// Reservation Table (DATA)
+// Reservation Waitlist (DATA)
 // =============================================================
-var tables = [
+var waitlist = [
     {
-      name: "Ziggy",
+      name: "ZiggyDIGGY",
       phoneNumber: 7701234567,
-      email: "ziggy@hotmail.com",
+      email: "ziggy@yahoo.com",
       userId: "ziggy123"
     },
   
 ];
 
-module.exports = tables;
+module.exports = waitlist;

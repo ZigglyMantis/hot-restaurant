@@ -2,6 +2,8 @@
 // =============================================================
 var express = require("express");
 var path = require("path");
+var tables = require('./data/table');
+var waitlist = require('./data/waitlist')
 
 // Sets up the Express App
 // =============================================================
@@ -12,17 +14,7 @@ var PORT = process.env.PORT || 3000;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// Reservation (DATA)
-// =============================================================
-var tables = [
-  {
-    name: "Ziggy",
-    phoneNumber: 7701234567,
-    email: "ziggy@hotmail.com",
-    userId: "ziggy123"
-  },
 
-];
 
 // Routes
 // =============================================================
